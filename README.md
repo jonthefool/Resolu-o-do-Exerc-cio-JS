@@ -1,38 +1,59 @@
-# Resolução: Lista de Exercícios - Funções JavaScript
+﻿# 🚀 Lista de exercícios Javascript
 
-Este repositório contém a resolução da **Lista de Exercícios sobre Funções JavaScript**, proposta na disciplina de **Introdução à Computação** da **CESAR School**.
+Bem-vindo à lista de exercícios sobre JavaScript! 🎉 Siga as instruções abaixo responder a lista. 💪
 
-O projeto foi orientado pela professora Rafaella Matos e teve como objetivo a prática na criação e utilização de funções em JavaScript.
+---
 
-## 🚀 Objetivo
+## ⚙️ Como realizar o exercício
 
-O objetivo da atividade foi praticar conceitos fundamentais, como:
+### 1️⃣ - Clonar o repositório 🖥️
 
-* Definição de funções
-* Parâmetros e valores de retorno
-* Uso de funções em operações matemáticas
-* Reaproveitamento de funções (composição)
-* Tratamento de exceções (como na função de divisão)
+Para começar, você deve clonar este repositório na sua máquina. Abra o terminal e execute o seguinte comando:
 
-## 🛠️ Funções Implementadas
+```bash
+git clone https://github.com/profrafamatos/11-lista-js-1.git
+```
 
-O arquivo `index.js` contém a implementação das 10 funções solicitadas:
+### 2️⃣ - Navegar até a pasta do repositório 📂
 
-1. `somar()`
-2. `multiplicar()`
-3. `subtrair()`
-4. `dividir()` (com tratamento para divisão por zero)
-5. `calcularMedia()` (reaproveitando `dividir`)
-6. `elevarPotencia()` (usando `Math.pow`)
-7. `calcularAreaRetangulo()` (reaproveitando `multiplicar`)
-8. `verificarParOuImpar()`
-9. `calcularRaizQuadrada()` (usando `Math.sqrt`)
-10. `calcularHipotenusa()` (reaproveitando `somar`, `elevarPotencia` e `calcularRaizQuadrada`)
+Agora, entre na pasta do repositório que você acabou de clonar:
 
-## ✅ Status
+```bash
+cd 11-lista-js-1
+```
 
-Todos os 10 testes fornecidos no repositório base foram executados e passaram com sucesso.
 
-## 🔗 Referência
+### 3️⃣ - Instalar as dependências 📦
 
-Repositório base: https://github.com/profrafamatos/11-lista-js-1
+Este projeto utiliza algumas dependências que precisam ser instaladas antes de rodar os testes. No terminal, execute o seguinte comando para instalar tudo direitinho:
+
+```bash
+npm install
+```
+
+⚠️ **Atenção:** Isso irá instalar todas as dependências listadas no arquivo package.json.
+
+
+### 4️⃣ - Resolver o exercício ✍️
+
+Agora, a parte divertida! Abra o arquivo index.js no VSCode ou em seu editor de preferência. 🛠️ Lá você encontrará comentários com as instruções. Resolva o exercício escrevendo o código na área indicada!
+
+
+⚠️ *** Importante: *** Não altere o arquivo index.test.js. Esse arquivo contém os testes automatizados e não deve ser modificado. Qualquer mudança nele pode interferir no seu resultado esperado!
+
+
+
+### 5️⃣ - Rodar os testes ✅
+Terminou a sua solução? Ótimo! 🎉 Agora é hora de verificar se está tudo funcionando. No terminal, execute o comando abaixo para rodar os testes automatizados:
+
+```bash
+npm test
+```
+
+- ✅ Se sua solução estiver correta, todos os testes passarão com sucesso! e uma imagem semelhante a apresentada abaixo será exibida. 🎉
+- ❌ Se algo der errado, o terminal vai te avisar quais testes falharam, e você pode ajustar seu código. Não desanime, faz parte do processo! 💡
+
+![alt text](image.png)
+
+---
+## 🚀 Agora, mãos à obra e divirta-se programando! 😄👩‍💻👨‍💻
